@@ -1,4 +1,4 @@
-#rust-3ds
+# rust-3ds
 
 This repository is designed to use the Rust programming language for 3DS homebrew development. The Dockerfile uses the [official devkitARM image](https://hub.docker.com/r/devkitpro/devkitarm), installs the Rust toolchain and other components, and configures everything needed by both compilers.
 
