@@ -1,5 +1,10 @@
 FROM devkitpro/devkitarm:latest
 
+# Labels
+LABEL org.opencontainers.image.source=https://github.com/nandolawson/rust-3ds
+LABEL org.opencontainers.image.description="Build Rust programs for the 3DS using a simplified Docker environment"
+LABEL org.opencontainers.image.licenses=GPL-3.0-only
+
 # Install all necessary dependencies
 RUN apt update && \
     apt install -y build-essential clang libclang-dev && \
