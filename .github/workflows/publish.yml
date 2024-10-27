@@ -19,8 +19,6 @@ jobs:
       packages: write
       id-token: write
     steps:
-      - name: Test devkitPro server accessibility
-        run: curl -I https://pkg.devkitpro.org
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Set up Docker Buildx
