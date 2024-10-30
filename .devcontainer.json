@@ -1,7 +1,4 @@
 {
     "name": "devkitARM with Rust for Nintendo 3DS",
-    "build": {
-        "dockerfile": "Dockerfile",
-        "context": "."
-    }
+	"image": "nandolawson/rust-3ds:latest"
 }
