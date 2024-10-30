@@ -4,6 +4,7 @@ on:
   push:
     paths-ignore:
       - '.github/**'
+      - '.devcontainer.json'
       - '.gitignore'
       - 'LICENSE'
       - 'README.md'
@@ -11,11 +12,11 @@ on:
   pull_request:
     paths-ignore:
       - '.github/**'
+      - '.devcontainer.json'
       - '.gitignore'
       - 'LICENSE'
       - 'README.md'
     branches: ["main"]
-  workflow_dispatch:
 
 env:
   REGISTRY_GHCR: ghcr.io
