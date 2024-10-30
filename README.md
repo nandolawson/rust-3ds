@@ -8,7 +8,7 @@ Pretty simple: Rust is an awesome and efficient programming language that's wide
 
 ## Usage
 
-Anyone who wants to use this project should know how to either build and use an image or how to obtain it from Docker Hub / GitHub Container Registry. Additionally, I've included a simple devcontainer configuration in this repository. For further information, I refer you to the [wiki](https://github.com/rust3ds/ctru-rs/wiki) created by the Rust 3DS team.
+Anyone who wants to use this project should know how to either build and use an image or how to obtain it from [Docker Hub](https://hub.docker.com/r/nandolawson/rust-3ds) / [GitHub Container Registry](https://github.com/nandolawson/rust-3ds/pkgs/container/rust-3ds). Additionally, I've included a simple devcontainer configuration in this repository. For further information, I refer you to the [wiki](https://github.com/rust3ds/ctru-rs/wiki) created by the Rust 3DS team.
 
 ## Contributing
 
