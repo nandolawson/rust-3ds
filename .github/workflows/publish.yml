@@ -3,7 +3,6 @@ name: Publish to GitHub Container Registry and Docker Hub
 on:
   push:
     paths-ignore:
-      - '.github/**'
       - '.devcontainer.json'
       - '.gitignore'
       - 'LICENSE'
