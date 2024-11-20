@@ -18,6 +18,10 @@ ENV PATH="/root/.cargo/bin:${PATH}"
 # Modify Rust installation and install cargo-3ds
 RUN rustup default nightly && \
     rustup component add rust-src && \
-    rustup component add rust-src --toolchain nightly-x86_64-unknown-linux-gnu && \
+    if [ "$(uname -m)" = "x86_64" ]; then \
+        rustup component add rust-src --toolchain nightly-x86_64-unknown-linux-gnu; \
+    elif [ "$(uname -m)" = "aarch64" ]; then \
+        rustup component add rust-src --toolchain nightly-aarch64-unknown-linux-gnu; \
+    fi && \
     rustup target add armv7a-none-eabi && \
     cargo install cargo-3ds
