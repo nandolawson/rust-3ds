@@ -1,3 +1,6 @@
+[![Docker Image](https://img.shields.io/badge/Docker%20Image-blue?style=flat&logo=Docker&logoColor=%23fff)](https://hub.docker.com/r/nandolawson/linkloom)
+[![Open in Dev Container](https://img.shields.io/badge/Open%20in%20Dev%20Container-blue?style=flat&logo=docker&logoColor=%23fff)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/nandolawson/rust-3ds)
+
 # rust-3ds
 
 This repository is designed to use the Rust programming language for 3DS homebrew development. The Dockerfile uses the [official devkitARM image](https://hub.docker.com/r/devkitpro/devkitarm), installs the Rust toolchain and other components, and configures everything needed by both compilers.
