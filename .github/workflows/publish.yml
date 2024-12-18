@@ -16,6 +16,8 @@ on:
       - 'LICENSE'
       - 'README.md'
     branches: ["main"]
+  schedule:
+    - cron: "0 0 1 * *"
 
 env:
   REGISTRY_GHCR: ghcr.io
