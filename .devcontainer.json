@@ -5,19 +5,12 @@
 				"DavidAnson.vscode-markdownlint",
 				"dustypomerleau.rust-syntax",
 				"fill-labs.dependi",
-				"github.vscode-github-actions",
-				"ms-azuretools.vscode-docker",
 				"rust-lang.rust-analyzer",
 				"tamasfe.even-better-toml"
 			],
 			"features": {
-				"ghcr.io/devcontainers/features/docker-in-docker:latest": {},
-				"ghcr.io/devcontainers/features/git:latest": {},
 				"ghcr.io/devcontainers/features/github-cli:latest": {}
 			},
-			"mounts": [
-				"source=${localEnv:HOME}/.gitconfig,target=/root/.gitconfig,type=bind"
-			],
 			"settings": {
 				"editor.formatOnSave": true,
 				"markdownlint.run": "onType",
