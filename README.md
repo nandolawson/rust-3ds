@@ -1,4 +1,4 @@
-[![Docker Image](https://img.shields.io/badge/Docker%20Image-blue?style=flat&logo=Docker&logoColor=%23fff)](https://hub.docker.com/r/nandolawson/linkloom)
+[![Docker Image](https://img.shields.io/badge/Docker%20Image-blue?style=flat&logo=Docker&logoColor=%23fff)](https://hub.docker.com/r/nandolawson/rust-3ds)
 [![Open in Dev Container](https://img.shields.io/badge/Open%20in%20Dev%20Container-blue?style=flat&logo=docker&logoColor=%23fff)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/nandolawson/rust-3ds)
 
 # rust-3ds
